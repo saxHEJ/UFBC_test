@@ -1,0 +1,24 @@
+
+/*  4.1 */
+header{
+    background-size:cover;
+/*  4.2 */
+    position:fixed;
+    width:100vw;
+}
+/*  4.3 */
+nav{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+/*  4.4 */
+main{
+    position:relative;
+    top: 170px; 
+    width:700px;
+    margin:0 auto;
+}
+
+
+
