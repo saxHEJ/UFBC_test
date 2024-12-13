@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var beverage = "rum";
+            var count = 9;
+
+            function add_verse() {
+                text = count +  " bottles of " + beverage + " on the wall<br>"
+                text += count + " bottles of " + beverage + "<br>"
+                text += "Take one down, pass it around<br>"
+                count = count - 1;
+                text += count + " bottles of " + beverage + " on the wall<br>"
+                text += "<br>"
+
+                return text;
+            }
+
+            while ( count > 1 ) {
+                document.body.innerHTML += add_verse();
+            }
+        </script>
+        <!-- A browser without support for JavaScript will
+             show the text written inside the noscript element. -->
+
+        <noscript>Sorry, your browser does not support JavaScript!</noscript>    </body>
+</html>
