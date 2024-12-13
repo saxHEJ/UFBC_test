@@ -19,6 +19,7 @@ main{
     width:700px;
     margin:0 auto;
 }
-
-
+body {
+     font-family: Verdana, sans-serif;
+}
 
